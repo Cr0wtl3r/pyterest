@@ -48,7 +48,7 @@ login, postem e gerenciem fotos.
 1. Crie um arquivo .env no diretório raiz e adicione suas variáveis de ambiente:
    ```env
    SECRET_KEY=sua_chave_secreta
-   DATABASE_URI=sqlite:///comunidade.db
+   DATABASE_URI= sua_url_do_banco
    ```
 
 2. Inicialize o banco de dados através do arquivo criar_banco.py:
